@@ -1,0 +1,38 @@
+{
+  "name": "react-parcel-sass-mnml-app",
+  "version": "1.0.0",
+  "description": "A Single Page App with React, Sass and Parcel",
+  "main": "index.js",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel build index.html --no-minify",
+    "dev:no-cache": "parcel build index.html --no-minify --no-cache",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-mes/react-parcel-sass-mnml-app.git"
+  },
+  "author": "James Loveridge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j-mes/react-parcel-sass-mnml-app/issues"
+  },
+  "homepage": "https://github.com/j-mes/react-parcel-sass-mnml-app#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.3",
+    "node-sass": "^4.14.1",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
